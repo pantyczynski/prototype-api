@@ -16,9 +16,12 @@
         "id": 2,
         "publishedDate":"08/04/2024",
         "name": "Create an account in a promotion engine",
-        "shortDescription":"Use Case 1 - long",
+        "shortDescription":"This use case involves integrating an e-commerce platform with a promotion engine. When a customer creates a new account on the e-commerce website or in an m-commerce app, the relevant information is automatically synchronized with the promotion engine. This allows uploading all customer profiles into promotion software and managing promotional offers directly from this platform for the whole customer database.",
         "systems":["Shopify","T1"],
-        "maturity":"Basic",
+        "industries":["Fuel","Retail"],
+        "systemTypes":["E-commerce", "Promotion engine/Loyalty program software"],
+        "implementationStatus":"Ready for implementation",
+        "maturity":"Advanced",
         "image":"image"
       }
     ]
