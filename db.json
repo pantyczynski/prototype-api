@@ -1,0 +1,14 @@
+{
+    "useCases": [
+      {
+        "id": 1,
+        "shortDescription": "Use Case 1",
+        "longDescription":"Use Case 1 - long"
+      },
+      {
+        "id": 2,
+        "shortDescription": "Use Case 2",
+        "longDescription": "Use Case 2 - long"
+      }
+    ]    
+}
