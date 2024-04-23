@@ -2,13 +2,19 @@
     "useCases": [
       {
         "id": 1,
-        "shortDescription": "Use Case 1",
-        "longDescription":"Use Case 1 - long"
+        "name": "Create an account in a promotion engine",
+        "shortDescription":"Use Case 1 - short description",
+        "systems":["Shopify","T1"],
+        "maturity":"Basic",
+        "image":"image"
       },
       {
         "id": 2,
-        "shortDescription": "Use Case 2",
-        "longDescription": "Use Case 2 - long"
+        "name": "Create an account in a promotion engine",
+        "shortDescription":"Use Case 1 - long",
+        "systems":["Shopify","T1"],
+        "maturity":"Basic",
+        "image":"image"
       }
     ]    
 }
