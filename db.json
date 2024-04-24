@@ -1,32 +1,102 @@
 {
-    "useCases": [
-      {
-        "id": 1,
-        "publishedDate":"08/04/2024",
-        "name": "Create an account in a promotion engine",
-        "shortDescription":"This use case involves integrating an e-commerce platform with a promotion engine. When a customer creates a new account on the e-commerce website or in an m-commerce app, the relevant information is automatically synchronized with the promotion engine. This allows uploading all customer profiles into promotion software and managing promotional offers directly from this platform for the whole customer database.",
-        "systems":["Shopify","T1"],
-        "industries":["Fuel","Retail"],
-        "systemTypes":["E-commerce", "Promotion engine/Loyalty program software"],
-        "implementationStatus":"Ready for implementation",
-        "maturity":"Basic",
-        "image":"image",
-        "preRequisites":["Setup store in Shopify","Setup Application in Talon.one https://docs.talon.one/docs/product/applications/overview"],
-        "instructions":["Select customer account type (either classic or new) in Shopify https://help.shopify.com/en/manual/customers/customer-accounts","Select customer account type (either classic or new) in Shopify https://help.shopify.com/en/manual/customers/customer-accounts","Configure Customer profile attributes and required custom attributes for customer domain in Talon.one https://docs.talon.one/docs/dev/concepts/attributes#custom-attributes","Integrate Shopify with Talon.one using Omnivy"]
-      },
-      {
-        "id": 2,
-        "publishedDate":"08/04/2024",
-        "name": "Create an account in a promotion engine",
-        "shortDescription":"This use case involves integrating an e-commerce platform with a promotion engine. When a customer creates a new account on the e-commerce website or in an m-commerce app, the relevant information is automatically synchronized with the promotion engine. This allows uploading all customer profiles into promotion software and managing promotional offers directly from this platform for the whole customer database.",
-        "systems":["Shopify","T1"],
-        "industries":["Fuel","Retail"],
-        "systemTypes":["E-commerce", "Promotion engine/Loyalty program software"],
-        "implementationStatus":"Ready for implementation",
-        "maturity":"Advanced",
-        "image":"image",
-        "preRequisites":["Setup store in Shopify","Setup Application in Talon.one https://docs.talon.one/docs/product/applications/overview"],
-        "instructions":["Select customer account type (either classic or new) in Shopify https://help.shopify.com/en/manual/customers/customer-accounts","Select customer account type (either classic or new) in Shopify https://help.shopify.com/en/manual/customers/customer-accounts","Configure Customer profile attributes and required custom attributes for customer domain in Talon.one https://docs.talon.one/docs/dev/concepts/attributes#custom-attributes","Integrate Shopify with Talon.one using Omnivy"]
-      }
-    ]
+  "useCases": [
+    {
+      "id": 1,
+      "publishedDate":"08/04/2024",
+      "name": "Create an account in a promotion engine",
+      "shortDescription":"This use case involves integrating an e-commerce platform with a promotion engine. When a customer creates a new account on the e-commerce website or in an m-commerce app, the relevant information is automatically synchronized with the promotion engine. This allows uploading all customer profiles into promotion software and managing promotional offers directly from this platform for the whole customer database.",
+      "systems":["Shopify","T1"],
+      "industries":["Fuel","Retail"],
+      "systemTypes":["E-commerce", "Promotion engine/Loyalty program software"],
+      "implementationStatus":"Ready for implementation",
+      "maturity":"Basic",
+      "image":"image",
+      "preRequisites":["Setup store in Shopify","Setup Application in Talon.one https://docs.talon.one/docs/product/applications/overview"],
+      "instructions":["Select customer account type (either classic or new) in Shopify https://help.shopify.com/en/manual/customers/customer-accounts","Select customer account type (either classic or new) in Shopify https://help.shopify.com/en/manual/customers/customer-accounts","Configure Customer profile attributes and required custom attributes for customer domain in Talon.one https://docs.talon.one/docs/dev/concepts/attributes#custom-attributes","Integrate Shopify with Talon.one using Omnivy"]
+    },
+    {
+      "id": 2,
+      "publishedDate":"08/04/2024",
+      "name": "Earn points for purchase in POS",
+      "shortDescription":"This use case involves integrating an e-commerce platform with a promotion engine. When a customer purchases a Point of Sale (POS) system, at a cash register, kiosk, or self-service checkout, and provides a loyalty identifier, the transaction details are seamlessly synchronized with the loyalty engine. Consequently, the transaction is processes by the loyalty engine, ensuring that the member accrues points in accordance with the established business rules.",
+      "systems":["POS","T1"],
+      "industries":["Fuel","Retail"],
+      "systemTypes":["E-commerce", "Promotion engine/Loyalty program software"],
+      "implementationStatus":"Needs implementation",
+      "maturity":"Basic",
+      "image":"image",
+      "preRequisites":["Setup store in Shopify","Setup Application in Talon.one https://docs.talon.one/docs/product/applications/overview"],
+      "instructions":["Select customer account type (either classic or new) in Shopify https://help.shopify.com/en/manual/customers/customer-accounts","Select customer account type (either classic or new) in Shopify https://help.shopify.com/en/manual/customers/customer-accounts","Configure Customer profile attributes and required custom attributes for customer domain in Talon.one https://docs.talon.one/docs/dev/concepts/attributes#custom-attributes","Integrate Shopify with Talon.one using Omnivy"]
+    },
+    {
+      "id": 3,
+      "publishedDate":"08/04/2024",
+      "name": "Update an account in a promotion software",
+      "shortDescription":"This use case involves integrating an e-commerce platform with a promotion software system. When a customer updates an account on the e-commerce website or m-commerce app, the customer details are seamlessly synchronized with the promotional software. This integration allows the uploading of all customer profiles into the promotion software, enabling the direct management of offers for the entire customer database from this platform.",
+      "systems":["Shopify","T1"],
+      "industries":["Fuel","Retail"],
+      "systemTypes":["E-commerce", "Promotion engine/Loyalty program software"],
+      "implementationStatus":"Ready for implementation",
+      "maturity":"Basic",
+      "image":"image",
+      "preRequisites":["Setup store in Shopify","Setup Application in Talon.one https://docs.talon.one/docs/product/applications/overview"],
+      "instructions":["Select customer account type (either classic or new) in Shopify https://help.shopify.com/en/manual/customers/customer-accounts","Select customer account type (either classic or new) in Shopify https://help.shopify.com/en/manual/customers/customer-accounts","Configure Customer profile attributes and required custom attributes for customer domain in Talon.one https://docs.talon.one/docs/dev/concepts/attributes#custom-attributes","Integrate Shopify with Talon.one using Omnivy"]
+    },
+    {
+      "id": 4,
+      "publishedDate":"08/04/2024",
+      "name": "Create an account in a promotion engine",
+      "shortDescription":"This use case enables a connection between ERP or CRM systems and the promotion engine to integrate customer accounts. After creating a customer record, their account information is smoothly transferred to the promotional software, ensuring a consistent customer journey.",
+      "systems":["Shopify","T1"],
+      "industries":["Fuel","Retail"],
+      "systemTypes":["E-commerce", "Promotion engine/Loyalty program software"],
+      "implementationStatus":"Ready for implementation",
+      "maturity":"Basic",
+      "image":"image",
+      "preRequisites":["Setup store in Shopify","Setup Application in Talon.one https://docs.talon.one/docs/product/applications/overview"],
+      "instructions":["Select customer account type (either classic or new) in Shopify https://help.shopify.com/en/manual/customers/customer-accounts","Select customer account type (either classic or new) in Shopify https://help.shopify.com/en/manual/customers/customer-accounts","Configure Customer profile attributes and required custom attributes for customer domain in Talon.one https://docs.talon.one/docs/dev/concepts/attributes#custom-attributes","Integrate Shopify with Talon.one using Omnivy"]
+    },
+    {
+      "id": 5,
+      "publishedDate":"08/04/2024",
+      "name": "Update an account in a promotion engine",
+      "shortDescription":"This use case enables a connection between ERP or CRM systems and the promotion engine to integrate customer accounts. After updating a customer record, their account information is smoothly transferred to the promotional software, ensuring a consistent customer journey.",
+      "systems":["Shopify","T1"],
+      "industries":["Fuel","Retail"],
+      "systemTypes":["E-commerce", "Promotion engine/Loyalty program software"],
+      "implementationStatus":"Ready for implementation",
+      "maturity":"Basic",
+      "image":"image",
+      "preRequisites":["Setup store in Shopify","Setup Application in Talon.one https://docs.talon.one/docs/product/applications/overview"],
+      "instructions":["Select customer account type (either classic or new) in Shopify https://help.shopify.com/en/manual/customers/customer-accounts","Select customer account type (either classic or new) in Shopify https://help.shopify.com/en/manual/customers/customer-accounts","Configure Customer profile attributes and required custom attributes for customer domain in Talon.one https://docs.talon.one/docs/dev/concepts/attributes#custom-attributes","Integrate Shopify with Talon.one using Omnivy"]
+    },
+    {
+      "id": 6,
+      "publishedDate":"08/04/2024",
+      "name": "Send an email when a new account is created",
+      "shortDescription":"This use case enables you to utilize the Marketing Automation system for sending email messages to customers once they have created an e-commerce account. Through this integration, you can streamline communication with customers using a single tool, while also simplifying the process and making it channel-free. This use case focuses solely on informing a customer that their account has been created. For more complex scenarios involving identity verification, refer to other use cases.",
+      "systems":["Shopify","Braze"],
+      "industries":["Fuel","Retail"],
+      "systemTypes":["E-commerce", "Promotion engine/Loyalty program software"],
+      "implementationStatus":"Ready for implementation",
+      "maturity":"Basic",
+      "image":"image",
+      "preRequisites":["Setup store in Shopify","Setup Application in Talon.one https://docs.talon.one/docs/product/applications/overview"],
+      "instructions":["Select customer account type (either classic or new) in Shopify https://help.shopify.com/en/manual/customers/customer-accounts","Select customer account type (either classic or new) in Shopify https://help.shopify.com/en/manual/customers/customer-accounts","Configure Customer profile attributes and required custom attributes for customer domain in Talon.one https://docs.talon.one/docs/dev/concepts/attributes#custom-attributes","Integrate Shopify with Talon.one using Omnivy"]
+    },
+    {
+      "id": 7,
+      "publishedDate":"08/04/2024",
+      "name": "Send an email when an account is modified",
+      "shortDescription":"This use case enables you to utilize the Marketing Automation system for sending email messages to customers once they have modified an e-commerce account data. Through this integration, you can streamline communication with customers using a single tool, while also simplifying the process and making it channel-free.",
+      "systems":["Shopify","Braze"],
+      "industries":["Fuel","Retail"],
+      "systemTypes":["E-commerce", "Promotion engine/Loyalty program software"],
+      "implementationStatus":"Ready for implementation",
+      "maturity":"Basic",
+      "image":"image",
+      "preRequisites":["Setup store in Shopify","Setup Application in Talon.one https://docs.talon.one/docs/product/applications/overview"],
+      "instructions":["Select customer account type (either classic or new) in Shopify https://help.shopify.com/en/manual/customers/customer-accounts","Select customer account type (either classic or new) in Shopify https://help.shopify.com/en/manual/customers/customer-accounts","Configure Customer profile attributes and required custom attributes for customer domain in Talon.one https://docs.talon.one/docs/dev/concepts/attributes#custom-attributes","Integrate Shopify with Talon.one using Omnivy"]
+    }
+  ]
 }
