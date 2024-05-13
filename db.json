@@ -12,7 +12,7 @@
       "maturity":"Basic",
       "image":"image",
       "preRequisites":["Setup store in Shopify","Setup Application in Talon.one https://docs.talon.one/docs/product/applications/overview"],
-      "instructions":["Select customer account type (either classic or new) in Shopify https://help.shopify.com/en/manual/customers/customer-accounts","Select customer account type (either classic or new) in Shopify https://help.shopify.com/en/manual/customers/customer-accounts","Configure Customer profile attributes and required custom attributes for customer domain in Talon.one https://docs.talon.one/docs/dev/concepts/attributes#custom-attributes","Integrate Shopify with Talon.one using Omnivy"]
+      "instructions":["Select customer account type (either classic or new) in Shopify <a>https://help.shopify.com/en/manual/customers/customer-accounts</a>","Select customer account type (either classic or new) in Shopify <a>https://help.shopify.com/en/manual/customers/customer-accounts</a>","Configure Customer profile attributes and required custom attributes for customer domain in Talon.one <a>https://docs.talon.one/docs/dev/concepts/attributes#custom-attributes</a>","Integrate Shopify with Talon.one using Omnivy"]
     },
     {
       "id": 2,
