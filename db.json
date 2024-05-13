@@ -30,17 +30,17 @@
     },
     {
       "id": 3,
-      "publishedDate":"08/04/2024",
-      "name": "Update an account in a promotion software",
-      "shortDescription":"This use case involves integrating an e-commerce platform with a promotion software system. When a customer updates an account on the e-commerce website or m-commerce app, the customer details are seamlessly synchronized with the promotional software. This integration allows the uploading of all customer profiles into the promotion software, enabling the direct management of offers for the entire customer database from this platform.",
-      "systems":["Shopify","T1"],
+      "publishedDate":"13/05/2024",
+      "name": "Create an account in a promotion engine",
+      "shortDescription":"This use case involves integrating an e-commerce platform with a promotion engine. When a customer creates a new account on the e-commerce website or in an m-commerce app, the relevant information is automatically synchronized with the promotion engine. This allows uploading all customer profiles into promotion software and managing promotional offers directly from this platform for the whole customer database.",
+      "systems":["Shopify","OpenLoyalty"],
       "industries":["Fuel","Retail"],
       "systemTypes":["E-commerce", "Promotion engine/Loyalty program software"],
       "implementationStatus":"Ready for implementation",
       "maturity":"Basic",
       "image":"image",
-      "preRequisites":["Setup store in Shopify","Setup Application in Talon.one https://docs.talon.one/docs/product/applications/overview"],
-      "instructions":["Select customer account type (either classic or new) in Shopify https://help.shopify.com/en/manual/customers/customer-accounts","Select customer account type (either classic or new) in Shopify https://help.shopify.com/en/manual/customers/customer-accounts","Configure Customer profile attributes and required custom attributes for customer domain in Talon.one https://docs.talon.one/docs/dev/concepts/attributes#custom-attributes","Integrate Shopify with Talon.one using Omnivy"]
+      "preRequisites":["Setup store in Shopify","Setup Tenant in OpenLoyalty"],
+      "instructions":["Select customer account type (either classic or new) in Shopify https://help.shopify.com/en/manual/customers/customer-accounts","Integrate Shopify with OpenLoyalty using Omnivy"]
     },
     {
       "id": 4,
