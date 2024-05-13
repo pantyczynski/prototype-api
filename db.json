@@ -95,7 +95,7 @@
   "systems": [
     {
       "id": 1,
-      "name": "Shopify",
+      "name": "Shopify Plus",
       "shortDescription":"Shopify Plus is an enterprise e-commerce software system designed for high-growth merchants and brands who have high levels of annual revenue.",
       "systemType":"E-commerce platform"
     },
