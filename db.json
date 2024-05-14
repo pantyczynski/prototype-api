@@ -42,14 +42,14 @@
     },
     {
       "id": 4,
-      "publishedDate":"08/04/2024",
-      "name": "Create an account in a promotion engine",
-      "shortDescription":"This use case enables a connection between ERP or CRM systems and the promotion engine to integrate customer accounts. After creating a customer record, their account information is smoothly transferred to the promotional software, ensuring a consistent customer journey.",
-      "systems":["Shopify","T1"],
+      "publishedDate":"14/05/2024",
+      "name": "Encourage in-store product purchases with exclusive discount",
+      "shortDescription":"The goal of this use case is to incentivize customers who have repeatedly viewed a product online to visit the physical store and make the purchase. By offering an exclusive discount coupon that can only be redeemed in-store, you aim to drive foot traffic and convert online interest into offline sales. This strategy leverages the customer's existing product engagement and provides a compelling reason to visit the store, where they can experience the product firsthand, receive personalized service, and make an informed decision",
+      "systems":["Shopify","OpenLoyalty", "POS", "Synerise"],
       "industries":["Fuel","Retail"],
-      "systemTypes":["E-commerce", "Promotion engine/Loyalty program software"],
-      "implementationStatus":"Ready for implementation",
-      "maturity":"Basic",
+      "systemTypes":["E-commerce", "Customer Data Platform (CDP)","POS", "Promotion engine/Loyalty program software","Marketing Automation"],
+      "implementationStatus":"Needs implementation",
+      "maturity":"Medium",
       "preRequisites":[""],
       "instructions":[""]
     },
@@ -60,11 +60,11 @@
       "shortDescription":"This use case enables a connection between ERP or CRM systems and the promotion engine to integrate customer accounts. After updating a customer record, their account information is smoothly transferred to the promotional software, ensuring a consistent customer journey.",
       "systems":["Shopify","T1"],
       "industries":["Fuel","Retail"],
-      "systemTypes":["E-commerce", "Promotion engine/Loyalty program software"],
+      "systemTypes":["E-commerce"],
       "implementationStatus":"Ready for implementation",
       "maturity":"Basic",
-      "preRequisites":["Setup store in Shopify","Setup Application in Talon.one https://docs.talon.one/docs/product/applications/overview"],
-      "instructions":["Select customer account type (either classic or new) in Shopify https://help.shopify.com/en/manual/customers/customer-accounts","Select customer account type (either classic or new) in Shopify https://help.shopify.com/en/manual/customers/customer-accounts","Configure Customer profile attributes and required custom attributes for customer domain in Talon.one https://docs.talon.one/docs/dev/concepts/attributes#custom-attributes","Integrate Shopify with Talon.one using Omnivy"]
+      "preRequisites":[""],
+      "instructions":[""]
     },
     {
       "id": 6,
