@@ -23,8 +23,9 @@
       "systemTypes":["E-commerce", "Promotion engine/Loyalty program software"],
       "implementationStatus":"Needs implementation",
       "maturity":"Basic",
-      "preRequisites":["Setup store in Shopify","Setup Application in Talon.one https://docs.talon.one/docs/product/applications/overview"],
-      "instructions":["Select customer account type (either classic or new) in Shopify https://help.shopify.com/en/manual/customers/customer-accounts","Select customer account type (either classic or new) in Shopify https://help.shopify.com/en/manual/customers/customer-accounts","Configure Customer profile attributes and required custom attributes for customer domain in Talon.one https://docs.talon.one/docs/dev/concepts/attributes#custom-attributes","Integrate Shopify with Talon.one using Omnivy"]
+      "image":"image",
+      "preRequisites":["Setup Application in Talon.one","Setup loyalty program in Talon.one","This use case assumes a direct POS to Talon.one REST API integration. If there’s any middleware in place, it should translate POS messages to relevant Talon.one API requests."],
+      "instructions":["Whenever customer identifies themselves with a loyalty identifier, send a request to open a customer session","Whenever a 'Subtotal' is requested on a POS system it should send an updated state of the customer session by repeating the customer session call","When the POS transaction & payment are complete, POS system should send an updated customer session request with 'state' set to 'closed'","If a POS transaction is aborted at any stage, it should send an updated customer session session request with 'state' set to 'closed'"]
     },
     {
       "id": 3,
